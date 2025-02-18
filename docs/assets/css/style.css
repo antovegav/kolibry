@@ -1,0 +1,105 @@
+
+/* font-family: "Dancing Script", cursive; */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA; /* Lavanda */
+    color: #333;
+}
+
+header {
+    
+    background-color: #302a59;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 20px;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+div .card {
+    background-color: transparent;
+    border: #805ba6 2px solid;
+}
+
+div .card-footer {
+    border: #805ba6 2px solid;
+}
+
+.hero {
+    text-align: center;
+    padding: 200px 450px;
+    background-color: #805ba6;
+    background-image: url('../img/logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.catalog, .about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e0d8f2;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery .item {
+    margin: 10px;
+}
+
+.gallery .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+footer {
+    background-color: #302a59;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
